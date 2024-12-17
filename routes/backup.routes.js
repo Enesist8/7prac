@@ -1,7 +1,7 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const backupController = require('../controller/backup.controller');
+const backupController = require("../controller/backup.controller");
 
-router.post('/backup',  backupController.createBackup);
+router.post("/backup", backupController.createBackup);
 
 module.exports = router;
